@@ -180,4 +180,46 @@ header {
   border-bottom: 2px solid #219251;
 }
 
-/* ****************************************** FEATURES ****************************************** */
+/* ****************************************** USES ****************************************** */
+
+.section-feauters .long-copy {
+  margin-bottom: 30px;
+}
+
+/* ****************************************** USES ****************************************** */
+
+.section-uses {
+  padding: 0;
+  margin: 0;
+}
+
+.uses-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.uses-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.use-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.use-photo img {
+  opacity: 0.7;
+  width: 100%;
+  height: auto;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.use-photo img:hover {
+  opacity: 1;
+  transform: scale(1.03);
+}
