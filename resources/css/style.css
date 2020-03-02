@@ -397,7 +397,43 @@ header {
   margin-right: 10px;
 }
 
+/* ****************************************** SECURITY FIRST ****************************************** */
+
+.section-security .long-copy {
+  margin-bottom: 17px;
+}
+
+.security-box p {
+  padding: 40px 20px;
+  margin-top: 5%;
+}
+
+.security-box video {
+  width: 99.9%;
+  border-radius: 5px;
+  opacity: 0.5;
+  transition: opacity 0.5s ease-in;
+}
+
+.security-box video:hover {
+  opacity: 1;
+}
+
+.security-box .overlay:hover {
+  border: 3px solid #17693a;
+}
+
+.overlay {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 100;
+}
+
 /* ****************************************** CITIES SECTION ****************************************** */
+
+.section-cities {
+  background-color: #f4f4f4;
+}
 
 .box img {
   width: 100%;
