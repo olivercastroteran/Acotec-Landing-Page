@@ -653,6 +653,17 @@ footer p {
   margin-top: 20px;
 }
 
+footer p a.me {
+  cursor: pointer;
+  color: #888;
+  border: 0;
+}
+
+.me:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
 /* ****************************************** ANIMATIONS ****************************************** */
 
 .js--wp-1,
